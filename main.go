@@ -1,8 +1,8 @@
-package main 
+package main
 
 import "fmt"
-import "hello"
+import "./hello"
 
 func main() {
-	fmt.Println(hello.Random());
+	fmt.Println(hello.Random())
 }
